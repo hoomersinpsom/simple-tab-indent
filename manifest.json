@@ -1,0 +1,9 @@
+{
+  "id": "simple-tab-indent",
+  "name": "Simple Tab Indent",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "author": "Thiago Frias",
+  "description": "Always insert a indentation tab, instead of turning the line into a code block.",
+  "main": "main.js"
+}
