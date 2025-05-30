@@ -78,15 +78,11 @@ module.exports = class SimpleTabIndentPlugin extends Plugin {
 
 /* ---------- settings tab ---------- */
 class SimpleTabIndentSettingTab extends PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Simple Tab Indent - Settings" });
+    // ← remove this line:
+    // containerEl.createEl("h2", { text: "Simple Tab Indent - Settings" });
 
     new Setting(containerEl)
       .setName("Tab width")

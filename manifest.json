@@ -6,6 +6,5 @@
   "description": "Pressing Tab inserts a zero-width space + real tab, giving true indentation without triggering Markdown code blocks. Includes a settings panel to change the CSS tab width.",
   "author": "Thiago Frias",
   "authorUrl": "https://github.com/hoomersinpsom",
-  "isDesktopOnly": false,
-  "main": "main.js"
+  "isDesktopOnly": false
 }
