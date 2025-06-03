@@ -5,20 +5,6 @@ Because the first character isn’t whitespace, Markdown no longer turns the lin
 
 ---
 
-## ⚠️ Important: Task Recognition Limitation
-
-**Please be aware:** When you use this plugin to indent task lines or list items, those indented items will **not be recognized** by:
-
-- Obsidian's built-in task management features
-- Any task management plugins (like Tasks, Dataview, etc.)
-- Obsidian's search when looking for tasks
-
-This happens because the plugin inserts invisible characters (ZWSP) that prevent Obsidian from parsing the indented lines as valid tasks or list items. While this creates clean visual indentation, it means your indented tasks won't appear in task queries, won't be counted in task statistics, and won't be manageable through other task-focused plugins.
-
-**If you rely on task management features in Obsidian, consider whether this trade-off works for your workflow before enabling this plugin.**
-
----
-
 ## ✨ Features
 
 |                                                                                                 |     |
@@ -45,6 +31,18 @@ This happens because the plugin inserts invisible characters (ZWSP) that prevent
 | -------------------------------------- | -------------------------------------------------------------------------- |
 | Plugin not listed                      | Check the folder path & manifest, then **Reload plugins**.                 |
 | Another extension still intercepts Tab | Look in **Settings ▸ Hotkeys** for conflicting Tab bindings, disable them. |
+
+---
+
+## ⚠️ Important: Task Recognition Limitation
+
+**Please be aware:** When you use this plugin to indent task lines or list items, those indented items will **not be recognized** by:
+
+- Obsidian's built-in task management features
+- Any task management plugins (like Tasks, Dataview, etc.)
+- Obsidian's search when looking for tasks
+
+**If you rely on task management features in Obsidian, consider whether this trade-off works for your workflow before enabling this plugin.**
 
 ---
 
